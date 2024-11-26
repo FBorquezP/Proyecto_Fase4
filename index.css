@@ -1,0 +1,224 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 428px;
+  height: 926px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 219px;
+  margin: 266px 0 0 106px;
+  padding: 10px 10px 10px 10px;
+  z-index: 5;
+}
+.bienbenido {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 199px;
+  height: 48px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Afacad, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+  position: relative;
+  width: 366px;
+  height: 77px;
+  margin: 473px 0 0 40px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  z-index: 10;
+  overflow: hidden;
+  border-radius: 100px;
+}
+.state-layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  gap: 8px;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  padding: 10px 24px 10px 24px;
+  z-index: 11;
+}
+.start-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 174px;
+  height: 58px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.96px;
+  z-index: 12;
+}
+.image {
+  position: absolute;
+  width: 650px;
+  height: 1407px;
+  top: -181px;
+  left: -54px;
+  background: url(./assets/images/37cfcb10732433dfa463e549e307dbb724b66380.png)
+    no-repeat center;
+  background-size: cover;
+}
+.istockphoto {
+  position: absolute;
+  width: 376px;
+  height: 253px;
+  top: -3px;
+  left: 115px;
+  background: url(./assets/images/9673c2aa6ee6136eeaa48b64e71eaa092af5f9f0.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: 9;
+}
+.charged-battery {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 23px;
+  left: 263px;
+  background: url(./assets/images/a7463e51fc5d1c8b09a6d28991b233ab344d3c72.png)
+    no-repeat center;
+  background-size: contain;
+  z-index: 1;
+}
+.wi-fi {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 23px;
+  left: 238px;
+  background: url(./assets/images/4c60a93487f4d90a382d59b300b67c6d1c145f0b.png)
+    no-repeat center;
+  background-size: contain;
+  z-index: 2;
+}
+.signal {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 23px;
+  left: 213px;
+  background: url(./assets/images/4083a6c77cdd7376cf6c7afbfe67c0ffee3e809b.png)
+    no-repeat center;
+  background-size: contain;
+  z-index: 3;
+}
+.time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 18px;
+  top: 23px;
+  left: 20px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.mi-hogar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 267px;
+  height: 130px;
+  top: 333px;
+  left: 78px;
+  color: #cd2236;
+  font-family: ABeeZee, var(--default-font-family);
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 65.01px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 8;
+  overflow: hidden;
+}
+.smart-home {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 403px;
+  left: 57px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
