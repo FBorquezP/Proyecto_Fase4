@@ -1,0 +1,42 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:var(--title-page-font-weight),700,600|Afacad:600|Poppins:500,700|ABeeZee:400|Source+Sans+Pro:700");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Verdana-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5b464a350d4429000a5a8fc8/Verdana Bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Verdana-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/625dd73aeee74652a47b8cb9/fonts/verdana.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Abhaya Libre ExtraBold-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/612cee6e7d4dd4a7d49e33de/fonts/abhayalibre-extrabold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Lucida Fax-Demibold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/61584b306b8b107adf21547c/fonts/lucida-fax-demibold.ttf")
+    format("truetype");
+}

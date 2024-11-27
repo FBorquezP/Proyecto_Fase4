@@ -1,0 +1,216 @@
+:root {
+    --title-page-font-family: "Inter", Helvetica;
+    --title-page-font-weight: 700;
+    --title-page-font-size: 48px;
+    --title-page-letter-spacing: -0.96px;
+    --title-page-line-height: 120.00000476837158%;
+    --title-page-font-style: normal;
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(121, 116, 126, 1);
+    --m3-schemes-surface-container-highest: rgba(230, 224, 233, 1);
+  }
+  
+  /*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-m3-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+  
+  [data-m3-mode="light"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(121, 116, 126, 1);
+    --m3-schemes-surface-container-highest: rgba(230, 224, 233, 1);
+  }
+  
+  [data-m3-mode="light-high-contrast"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(69, 65, 74, 1);
+    --m3-schemes-surface-container-highest: rgba(230, 224, 233, 1);
+  }
+  
+  [data-m3-mode="light-medium-contrast"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(97, 93, 103, 1);
+    --m3-schemes-surface-container-highest: rgba(230, 224, 233, 1);
+  }
+  
+  [data-m3-mode="dark"] {
+    --m3-schemes-on-primary: rgba(56, 30, 114, 1);
+    --m3-schemes-outline: rgba(147, 143, 153, 1);
+    --m3-schemes-surface-container-highest: rgba(54, 52, 59, 1);
+  }
+  
+  [data-m3-mode="dark-high-contrast"] {
+    --m3-schemes-on-primary: rgba(0, 0, 0, 1);
+    --m3-schemes-outline: rgba(206, 200, 212, 1);
+    --m3-schemes-surface-container-highest: rgba(54, 52, 58, 1);
+  }
+  
+  [data-m3-mode="dark-medium-contrast"] {
+    --m3-schemes-on-primary: rgba(27, 9, 66, 1);
+    --m3-schemes-outline: rgba(166, 161, 171, 1);
+    --m3-schemes-surface-container-highest: rgba(54, 52, 58, 1);
+  }
+  
+  [data-m3-mode="monochrome-LT"] {
+    --m3-schemes-on-primary: rgba(226, 226, 226, 1);
+    --m3-schemes-outline: rgba(119, 119, 119, 1);
+    --m3-schemes-surface-container-highest: rgba(226, 226, 226, 1);
+  }
+  
+  [data-m3-mode="monochrome-DT"] {
+    --m3-schemes-on-primary: rgba(26, 28, 28, 1);
+    --m3-schemes-outline: rgba(145, 145, 145, 1);
+    --m3-schemes-surface-container-highest: rgba(53, 53, 53, 1);
+  }
+  
+  [data-m3-mode="pink-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(130, 115, 120, 1);
+    --m3-schemes-surface-container-highest: rgba(238, 223, 227, 1);
+  }
+  
+  [data-m3-mode="pink-DT"] {
+    --m3-schemes-on-primary: rgba(83, 29, 57, 1);
+    --m3-schemes-outline: rgba(157, 140, 146, 1);
+    --m3-schemes-surface-container-highest: rgba(59, 50, 53, 1);
+  }
+  
+  [data-m3-mode="rose-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(132, 115, 116, 1);
+    --m3-schemes-surface-container-highest: rgba(240, 222, 223, 1);
+  }
+  
+  [data-m3-mode="rose-DT"] {
+    --m3-schemes-on-primary: rgba(86, 29, 41, 1);
+    --m3-schemes-outline: rgba(159, 140, 142, 1);
+    --m3-schemes-surface-container-highest: rgba(61, 50, 51, 1);
+  }
+  
+  [data-m3-mode="red-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(133, 115, 112, 1);
+    --m3-schemes-surface-container-highest: rgba(241, 222, 220, 1);
+  }
+  
+  [data-m3-mode="red-DT"] {
+    --m3-schemes-on-primary: rgba(86, 30, 24, 1);
+    --m3-schemes-outline: rgba(160, 140, 138, 1);
+    --m3-schemes-surface-container-highest: rgba(61, 50, 49, 1);
+  }
+  
+  [data-m3-mode="orange-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(133, 116, 107, 1);
+    --m3-schemes-surface-container-highest: rgba(240, 223, 215, 1);
+  }
+  
+  [data-m3-mode="orange-DT"] {
+    --m3-schemes-on-primary: rgba(83, 34, 0, 1);
+    --m3-schemes-outline: rgba(127, 118, 103, 1);
+    --m3-schemes-surface-container-highest: rgba(61, 51, 45, 1);
+  }
+  
+  [data-m3-mode="yellow-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(127, 118, 103, 1);
+    --m3-schemes-surface-container-highest: rgba(235, 225, 212, 1);
+  }
+  
+  [data-m3-mode="yellow-DT"] {
+    --m3-schemes-on-primary: rgba(63, 46, 0, 1);
+    --m3-schemes-outline: rgba(153, 144, 128, 1);
+    --m3-schemes-surface-container-highest: rgba(57, 52, 43, 1);
+  }
+  
+  [data-m3-mode="chartreuse-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(120, 120, 106, 1);
+    --m3-schemes-surface-container-highest: rgba(229, 227, 214, 1);
+  }
+  
+  [data-m3-mode="chartreuse-DT"] {
+    --m3-schemes-on-primary: rgba(45, 52, 0, 1);
+    --m3-schemes-outline: rgba(145, 146, 130, 1);
+    --m3-schemes-surface-container-highest: rgba(53, 53, 45, 1);
+  }
+  
+  [data-m3-mode="green-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(113, 121, 112, 1);
+    --m3-schemes-surface-container-highest: rgba(224, 228, 219, 1);
+  }
+  
+  [data-m3-mode="green-DT"] {
+    --m3-schemes-on-primary: rgba(0, 57, 19, 1);
+    --m3-schemes-outline: rgba(145, 146, 130, 1);
+    --m3-schemes-surface-container-highest: rgba(49, 54, 48, 1);
+  }
+  
+  [data-m3-mode="teal-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(111, 121, 118, 1);
+    --m3-schemes-surface-container-highest: rgba(221, 228, 225, 1);
+  }
+  
+  [data-m3-mode="teal-DT"] {
+    --m3-schemes-on-primary: rgba(0, 55, 49, 1);
+    --m3-schemes-outline: rgba(136, 147, 143, 1);
+    --m3-schemes-surface-container-highest: rgba(48, 54, 52, 1);
+  }
+  
+  [data-m3-mode="cyan-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(112, 120, 124, 1);
+    --m3-schemes-surface-container-highest: rgba(222, 227, 230, 1);
+  }
+  
+  [data-m3-mode="cyan-DT"] {
+    --m3-schemes-on-primary: rgba(0, 54, 66, 1);
+    --m3-schemes-outline: rgba(138, 146, 149, 1);
+    --m3-schemes-surface-container-highest: rgba(48, 54, 56, 1);
+  }
+  
+  [data-m3-mode="blue-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(117, 119, 128, 1);
+    --m3-schemes-surface-container-highest: rgba(226, 226, 233, 1);
+  }
+  
+  [data-m3-mode="blue-DT"] {
+    --m3-schemes-on-primary: rgba(21, 46, 96, 1);
+    --m3-schemes-outline: rgba(143, 144, 154, 1);
+    --m3-schemes-surface-container-highest: rgba(51, 52, 58, 1);
+  }
+  
+  [data-m3-mode="indigo-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(120, 118, 128, 1);
+    --m3-schemes-surface-container-highest: rgba(229, 225, 233, 1);
+  }
+  
+  [data-m3-mode="indigo-DT"] {
+    --m3-schemes-on-primary: rgba(45, 41, 96, 1);
+    --m3-schemes-outline: rgba(145, 143, 154, 1);
+    --m3-schemes-surface-container-highest: rgba(53, 52, 58, 1);
+  }
+  
+  [data-m3-mode="purple-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-outline: rgba(122, 117, 127, 1);
+    --m3-schemes-surface-container-highest: rgba(231, 224, 232, 1);
+  }
+  
+  [data-m3-mode="purple-DT"] {
+    --m3-schemes-on-primary: rgba(59, 37, 90, 1);
+    --m3-schemes-outline: rgba(149, 142, 153, 1);
+    --m3-schemes-surface-container-highest: rgba(55, 51, 58, 1);
+  }
+  
